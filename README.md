@@ -124,6 +124,6 @@ Este proyecto puede ampliarse fácilmente para incluir:
 
 ## 📄 Licencia
 
-Este proyecto está bajo la **Licencia MIT** - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
+Este proyecto está bajo la **Licencia MIT** - consulta el archivo [LICENSE.md](LICENSE) para más detalles.
 
 Siéntete libre de **usar, modificar o compartir** este proyecto.
