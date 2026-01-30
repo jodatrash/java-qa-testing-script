@@ -36,7 +36,7 @@ Antes de comenzar, asegúrate de contar con lo siguiente instalado:
 2.  **Selenium WebDriver 4.40.0**: [Descarga aquí](https://www.selenium.dev/downloads/)
 3.  **Navegador Web**: Google Chrome (Recomendado para Selenium).
 4.  **IDE Recomendado:** IntelliJ IDEA / VSCode
-5.  **Crea una cuenta** en: [Demo Web Shop](https://demowebshop.tricentis.com/)
+5.  **Una cuenta** activa en: [Demo Web Shop](https://demowebshop.tricentis.com/)
 
 _\*No es necesario que sea una cuenta legítima, por ejemplo:_ `your-email@test.com`
 
@@ -81,7 +81,7 @@ java-qa-testing-script/
 ├── src/            # Código fuente del script de automatización
 ├── lib/            # Dependencias de Selenium WebDriver
 ├── .gitignore      # .gitignore del proyecto
-├── LICENSE.md      # Licencia del proyecto
+├── LICENSE         # Licencia del proyecto
 └── README.md       # Documentación
 ```
 
