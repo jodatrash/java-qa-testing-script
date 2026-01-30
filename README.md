@@ -1,7 +1,7 @@
 <div align="center"> 
 
 
-# java-qa-testing-script
+# Java Testing Script
 
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-4.40.0-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
