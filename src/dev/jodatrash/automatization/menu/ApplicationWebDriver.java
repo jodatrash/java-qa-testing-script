@@ -48,23 +48,20 @@ public class ApplicationWebDriver {
 
   private void optionProcess(int option) {
     switch (option) {
-      case 1:
+      case 1 -> {
         menuSelection.webCharge();
         System.out.println(ColorUtils.RED + MessageUtils.WEB_CHECK + ColorUtils.RESET);
-        break;
-      case 2:
+      }
+      case 2 -> {
         System.out.println(MessageUtils.WEB_LOGIN);
         menuSelection.webLogin();
-        break;
-      case 3:
-        break;
-      case 4:
-        break;
-      case 0:
+      }
+      case 3 -> System.out.println("Opción [3] no disponible");
+      case 4 -> System.out.println("Opción [4] no disponible ");
+      case 0 -> {
         menuSelection.webClose();
-        break;
-      default:
-        System.out.println(MessageUtils.INVALID_MESSAGE);
+      }
+      default -> System.out.println(MessageUtils.INVALID_MESSAGE);
     }
   }
 
