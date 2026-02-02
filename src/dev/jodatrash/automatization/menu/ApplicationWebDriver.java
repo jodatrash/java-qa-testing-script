@@ -56,10 +56,9 @@ public class ApplicationWebDriver {
         System.out.println(MessageUtils.WEB_LOGIN);
         menuSelection.webLogin();
       }
-      case 3 -> System.out.println("Opción [3] no disponible");
-      case 4 -> System.out.println("Opción [4] no disponible ");
+      case 3, 4 -> System.out.println(MessageUtils.NO_AVAILABLE);
       case 0 -> menuSelection.webClose();
-      default -> System.out.println(MessageUtils.INVALID_MESSAGE);
+      default -> System.out.println(MessageUtils.INVALID_OPTION);
     }
   }
 
